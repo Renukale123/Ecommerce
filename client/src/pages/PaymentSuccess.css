@@ -1,0 +1,14 @@
+.payment-success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .success-message {
+    color: #1e234f; /* Green color */
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,41 @@
+{
+  "name": "Ecommerce-app-2023",
+  "version": "1.0.0",
+  "description": "ecommerce rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Techinfoyt",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "braintree": "^3.13.0",
+    "circular-json": "^0.5.9",
+    "colors": "^1.4.0",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "flatted": "^3.2.9",
+    "fontawesome": "^5.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.12.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "razorpay": "^2.9.2",
+    "react-icons": "^4.7.1",
+    "slugify": "^1.6.5",
+    "styled-components": "^6.1.1"
+  }
+}
